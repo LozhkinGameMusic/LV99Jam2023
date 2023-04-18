@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{081fde32-0244-482b-bf55-422ead19c9b0}">
+		<property name="name">
+			<value>Coocking_intensiti</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6cde18e7-0b4a-41ce-aa7f-b3e2ad813742}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{184ddbd9-82ee-4c7a-a313-71c500c949f3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{184ddbd9-82ee-4c7a-a313-71c500c949f3}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>101</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

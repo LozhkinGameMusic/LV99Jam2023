@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{77c75171-f3b1-437b-96a5-041090e6911e}">
+		<property name="assetPath">
+			<value>Lv99Jamе testEyeStrike01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{caf2f4fc-e9c4-486f-ad66-0338d34c7352}</destination>
+		</relationship>
+	</object>
+</objects>

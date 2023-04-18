@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{1cc613c9-b6dd-4155-95dc-cb1e7dcd87f5}">
+		<property name="name">
+			<value>Day_Night_Kitchen</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6cde18e7-0b4a-41ce-aa7f-b3e2ad813742}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5cb73dcf-2b20-463f-b5d5-0341c55ef6cb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5cb73dcf-2b20-463f-b5d5-0341c55ef6cb}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.2800000011920929</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>25</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
