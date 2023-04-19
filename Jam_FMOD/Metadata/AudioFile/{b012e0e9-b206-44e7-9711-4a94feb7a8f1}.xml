@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b012e0e9-b206-44e7-9711-4a94feb7a8f1}">
+		<property name="assetPath">
+			<value>LocomotionFP/JumpDuck/Jam Lv 99 Jump02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.3693124999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{caf2f4fc-e9c4-486f-ad66-0338d34c7352}</destination>
+		</relationship>
+	</object>
+</objects>
