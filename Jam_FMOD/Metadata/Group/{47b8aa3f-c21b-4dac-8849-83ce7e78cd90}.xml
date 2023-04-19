@@ -20,10 +20,29 @@
 	<object class="MixerBusEffectChain" id="{e6162f77-f08b-4651-9166-0133158cbfe2}">
 		<relationship name="effects">
 			<destination>{eaab0602-54dc-471f-9016-80e5db09b585}</destination>
+			<destination>{42fa382b-e940-4b0c-956f-c2c857ace3ca}</destination>
 			<destination>{222bd35f-30b1-4dd6-b749-e32314b60258}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2f69ebc5-0b47-4810-8ad7-6136878b0dd3}" />
 	<object class="MixerBusFader" id="{eaab0602-54dc-471f-9016-80e5db09b585}" />
+	<object class="CompressorEffect" id="{42fa382b-e940-4b0c-956f-c2c857ace3ca}">
+		<property name="threshold">
+			<value>-27</value>
+		</property>
+		<property name="ratio">
+			<value>3.5</value>
+		</property>
+		<property name="attackTime">
+			<value>0.75</value>
+		</property>
+		<property name="releaseTime">
+			<value>340</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{1b83ec22-e5c7-46d3-9804-73730d3c959a}</destination>
+			<destination>{4ffe4459-6894-4d4f-8b55-0b9f2752b26e}</destination>
+		</relationship>
+	</object>
 	<object class="ThreeEQEffect" id="{222bd35f-30b1-4dd6-b749-e32314b60258}" />
 </objects>
