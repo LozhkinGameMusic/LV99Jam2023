@@ -5,7 +5,7 @@
 			<value>LandFP</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{37089744-2444-4849-97c7-ab9929d385e3}</destination>
@@ -79,6 +79,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ec874df3-bbb6-472a-8cac-81a91e56183f}">
+		<property name="volume">
+			<value>5.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{9222695d-4e57-44c2-bd52-b72aef7261be}</destination>
 		</relationship>
@@ -139,7 +142,6 @@
 	<object class="MixerBusEffectChain" id="{9222695d-4e57-44c2-bd52-b72aef7261be}">
 		<relationship name="effects">
 			<destination>{9128df85-08f8-4466-9539-d8a7a6bbc076}</destination>
-			<destination>{95279228-e3eb-44ca-b48b-3e5709444193}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2015f2dd-d014-45d9-a0c6-59dd6e9af100}" />
@@ -190,14 +192,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{ebc26669-92dd-48e2-8381-e6b7d5bc3391}" />
 	<object class="MixerBusFader" id="{9128df85-08f8-4466-9539-d8a7a6bbc076}" />
-	<object class="SpatialiserEffect" id="{95279228-e3eb-44ca-b48b-3e5709444193}">
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>42</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{52737e0f-eb35-4076-9d7b-6ea8a5a78990}">
 		<property name="position">
 			<value>0</value>
@@ -211,7 +205,7 @@
 	</object>
 	<object class="AutomationPoint" id="{56fd6709-cc43-4a47-aff1-225709043005}">
 		<property name="position">
-			<value>0.041338628899835791</value>
+			<value>0.015625</value>
 		</property>
 		<property name="value">
 			<value>1</value>

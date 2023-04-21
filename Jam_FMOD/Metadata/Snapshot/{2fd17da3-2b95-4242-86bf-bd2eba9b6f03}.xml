@@ -24,10 +24,6 @@
 		</relationship>
 		<relationship name="snapshotProperties">
 			<destination>{d3f88b93-fd1e-4b0a-a3d3-8e6439d77615}</destination>
-			<destination>{0e5d94a9-24d7-4bcc-b852-6de7d53a0f53}</destination>
-			<destination>{b35acf42-7d88-4d85-9dd0-66dd426aa8d3}</destination>
-			<destination>{bc1093fd-30cf-4ade-891f-9159a845fa88}</destination>
-			<destination>{8f121fd2-c386-4ce9-a5ad-2a97de6a84e2}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{28533829-a3fe-4d31-b436-84f2149afb45}</destination>
@@ -54,50 +50,6 @@
 		</relationship>
 		<relationship name="automatableObject">
 			<destination>{47b8aa3f-c21b-4dac-8849-83ce7e78cd90}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{0e5d94a9-24d7-4bcc-b852-6de7d53a0f53}">
-		<property name="propertyName">
-			<value>highGain</value>
-		</property>
-		<property name="value">
-			<value>-25.5</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{f826c489-29d5-4808-976d-2ae492c1e118}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{b35acf42-7d88-4d85-9dd0-66dd426aa8d3}">
-		<property name="propertyName">
-			<value>highGain</value>
-		</property>
-		<property name="value">
-			<value>-26.5</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{222bd35f-30b1-4dd6-b749-e32314b60258}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{bc1093fd-30cf-4ade-891f-9159a845fa88}">
-		<property name="propertyName">
-			<value>midGain</value>
-		</property>
-		<property name="value">
-			<value>-8</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{222bd35f-30b1-4dd6-b749-e32314b60258}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{8f121fd2-c386-4ce9-a5ad-2a97de6a84e2}">
-		<property name="propertyName">
-			<value>lowGain</value>
-		</property>
-		<property name="value">
-			<value>-22.5</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{222bd35f-30b1-4dd6-b749-e32314b60258}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotTrack" id="{28533829-a3fe-4d31-b436-84f2149afb45}">
