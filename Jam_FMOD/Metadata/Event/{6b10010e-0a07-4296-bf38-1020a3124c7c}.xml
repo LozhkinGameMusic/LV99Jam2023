@@ -64,7 +64,11 @@
 			<destination>{48d184ec-2cb1-4b05-b8c0-0ea92907abbc}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{9ed5b1af-4a6a-4610-acf0-97590b82703b}" />
+	<object class="EventAutomatableProperties" id="{9ed5b1af-4a6a-4610-acf0-97590b82703b}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{15996dcc-69aa-406e-92a5-6e16b511992c}" />
 	<object class="GroupTrack" id="{80457c0d-3802-4f03-b50d-41b43708aecc}">
 		<relationship name="automationTracks">
@@ -148,9 +152,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{58938999-1ed2-4053-9656-904d22913908}">
-		<property name="volume">
-			<value>3.5</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{04a86d48-0a50-4777-8f6e-893ba4698567}</destination>
 		</relationship>
@@ -440,7 +441,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{d110e092-35ad-4ab3-ae8a-1d96f41a631c}" />
 	<object class="MixerBusFader" id="{96d06849-6d36-4b65-8189-d955b90f6769}" />
-	<object class="SpatialiserEffect" id="{d2e00158-4d0b-4a7a-b887-14ca21dbb632}" />
+	<object class="SpatialiserEffect" id="{d2e00158-4d0b-4a7a-b887-14ca21dbb632}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>18</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{7e0a8c53-e837-448e-bca6-66036b339aa2}">
 		<relationship name="parameter">
 			<destination>{91118d2c-99c0-4dee-8297-016a0769e321}</destination>

@@ -107,9 +107,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cd895302-f8ff-4ba4-958d-43fd5dedc2fc}">
-		<property name="volume">
-			<value>1.5</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -132,6 +129,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{58e66d8d-448a-4829-8e03-134d0e64977c}">
+		<property name="volume">
+			<value>-1.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -166,7 +166,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{897f52c8-9acf-470b-aaf8-abd5ba0e5db9}" />
 	<object class="MixerBusFader" id="{6fa098f7-bb16-4a34-81ff-8dc7f6db3a53}" />
-	<object class="SpatialiserEffect" id="{a39d40b3-fdd8-47b0-878e-4be611807b4a}" />
+	<object class="SpatialiserEffect" id="{a39d40b3-fdd8-47b0-878e-4be611807b4a}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>18</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f40a9fe1-e5bc-41a1-94ff-3fbaf523b18c}" />
 	<object class="MixerBusFader" id="{f7622210-c08d-4075-b1e3-a644108ba0eb}" />
 </objects>

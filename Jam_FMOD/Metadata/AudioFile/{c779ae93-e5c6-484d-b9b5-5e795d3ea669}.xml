@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c779ae93-e5c6-484d-b9b5-5e795d3ea669}">
+		<property name="assetPath">
+			<value>2scene/Jam Lv 99 Laugh Mountine Idle01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>20.993333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{caf2f4fc-e9c4-486f-ad66-0338d34c7352}</destination>
+		</relationship>
+	</object>
+</objects>

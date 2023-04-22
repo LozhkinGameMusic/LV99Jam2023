@@ -112,13 +112,16 @@
 		<property name="timelockedOffset">
 			<value>0.2890625</value>
 		</property>
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{273c09a4-497e-4232-a1d6-fa7b78f63aac}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{75fbc745-e88c-44ba-9826-388987dc15a9}">
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-6</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -137,6 +140,7 @@
 		<relationship name="effects">
 			<destination>{01c7dd05-c8f1-414e-acd4-26bac7864e3d}</destination>
 			<destination>{ab67fd8e-68ad-458e-8993-f2086c1d8ada}</destination>
+			<destination>{ae93c35c-2769-40f7-a7fe-344a0f21dabb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ee2fb634-8e18-4a4f-b911-ef8cbdcb2053}" />
@@ -148,6 +152,21 @@
 	</object>
 	<object class="MixerBusPanner" id="{d327306d-c55b-4df8-8396-a8f8be44c176}" />
 	<object class="MixerBusFader" id="{01c7dd05-c8f1-414e-acd4-26bac7864e3d}" />
-	<object class="SpatialiserEffect" id="{ab67fd8e-68ad-458e-8993-f2086c1d8ada}" />
+	<object class="SpatialiserEffect" id="{ab67fd8e-68ad-458e-8993-f2086c1d8ada}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>18</value>
+		</property>
+	</object>
+	<object class="LoudnessMeter" id="{ae93c35c-2769-40f7-a7fe-344a0f21dabb}">
+		<property name="loudnessTarget">
+			<value>-14</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{46b1282c-4862-4663-850b-d93e7d58391f}" />
 </objects>

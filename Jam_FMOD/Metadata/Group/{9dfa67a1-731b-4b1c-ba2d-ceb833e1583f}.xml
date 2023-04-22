@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{9dfa67a1-731b-4b1c-ba2d-ceb833e1583f}">
+		<property name="name">
+			<value>Magic</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a6471152-1318-4f3e-986e-2b93e4cb1cf6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8e5d834b-48c6-42a9-bf4a-32db3d20d35a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{be0b87c4-c291-44ad-99ab-63f212eaaf21}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a6471152-1318-4f3e-986e-2b93e4cb1cf6}">
+		<relationship name="effects">
+			<destination>{69f1c435-93f5-475a-8cc7-a4e8fc5600a8}</destination>
+			<destination>{58a566e9-ee9c-485c-9b1d-ecdc8d9dd5a1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8e5d834b-48c6-42a9-bf4a-32db3d20d35a}" />
+	<object class="MixerBusFader" id="{69f1c435-93f5-475a-8cc7-a4e8fc5600a8}" />
+	<object class="Sidechain" id="{58a566e9-ee9c-485c-9b1d-ecdc8d9dd5a1}" />
+</objects>

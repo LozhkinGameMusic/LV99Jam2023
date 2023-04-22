@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c953e476-cea0-4e6d-847b-13fdc65a8069}">
+		<property name="assetPath">
+			<value>Menu/Jam Lv 99 whooshCard_on06.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.0787083333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{caf2f4fc-e9c4-486f-ad66-0338d34c7352}</destination>
+		</relationship>
+	</object>
+</objects>
