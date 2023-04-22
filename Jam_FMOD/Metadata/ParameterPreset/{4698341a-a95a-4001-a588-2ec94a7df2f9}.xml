@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{4698341a-a95a-4001-a588-2ec94a7df2f9}">
-		<property name="note" />
 		<property name="name">
 			<value>ParMusic</value>
 		</property>
