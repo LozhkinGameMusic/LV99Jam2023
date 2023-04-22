@@ -94,8 +94,17 @@
 	<object class="MixerBusPanner" id="{3dc0ce07-e353-44fa-ad4b-7edde0f2ee0a}" />
 	<object class="SingleSound" id="{345b232e-116c-413c-8d57-40503cba103e}">
 		<property name="length">
-			<value>1.625</value>
+			<value>1.5</value>
 		</property>
+		<property name="timelockedOffset">
+			<value>0.40000000000000002</value>
+		</property>
+		<property name="pitch">
+			<value>-3</value>
+		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{e3171946-be9c-42e2-9ead-cec768b645ee}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{536e6917-8645-49d7-b638-69889eb2ff07}</destination>
 		</relationship>
@@ -122,6 +131,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{21ce3a66-8068-4c95-a8a3-8c054552c968}" />
 	<object class="MixerBusFader" id="{cd57e464-c24a-49be-aabf-57bea9e9feac}" />
+	<object class="FadeCurve" id="{e3171946-be9c-42e2-9ead-cec768b645ee}">
+		<relationship name="startPoint">
+			<destination>{ae362f89-7ba7-41ee-ac11-8ee03ea99d8e}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{89697ced-7510-4268-84ea-3b4cc55d5e3d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{b4437e0b-ae20-4b4c-b536-85fe85a9063c}">
 		<relationship name="effects">
 			<destination>{9ccd5852-b467-4b26-ae8d-99410a2b3920}</destination>
@@ -138,6 +155,25 @@
 		</property>
 		<property name="soundSize">
 			<value>18</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{ae362f89-7ba7-41ee-ac11-8ee03ea99d8e}">
+		<property name="position">
+			<value>1.2</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{89697ced-7510-4268-84ea-3b4cc55d5e3d}">
+		<property name="position">
+			<value>1.5</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{9ccd5852-b467-4b26-ae8d-99410a2b3920}" />
