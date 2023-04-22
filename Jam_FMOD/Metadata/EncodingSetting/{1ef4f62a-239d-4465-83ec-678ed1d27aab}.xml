@@ -5,10 +5,7 @@
 			<value>3</value>
 		</property>
 		<property name="quality">
-			<value>37</value>
-		</property>
-		<property name="sampleRateMode">
-			<value>2</value>
+			<value>60</value>
 		</property>
 		<property name="sampleRate">
 			<value>44100</value>

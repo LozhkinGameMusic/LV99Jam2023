@@ -22,8 +22,8 @@
 			<destination>{49a256a1-4993-4c85-a55c-f3f15dbdc015}</destination>
 		</relationship>
 		<relationship name="emitters">
-			<destination>{4a60d330-e2a3-412c-8f34-3f5a001bb82e}</destination>
 			<destination>{8b585222-beca-4b75-af4a-a1b81cd34b92}</destination>
+			<destination>{4e716997-9f7d-45b9-8ce4-8a252f772a0e}</destination>
 		</relationship>
 	</object>
 	<object class="MarkerTrack" id="{c502bf72-093e-45a5-b111-54cfdb168509}" />
@@ -54,35 +54,38 @@
 	</object>
 	<object class="SandboxListener" id="{49a256a1-4993-4c85-a55c-f3f15dbdc015}">
 		<property name="positionX">
-			<value>1.09999979</value>
+			<value>0.0249997694</value>
 		</property>
 		<property name="positionZ">
-			<value>2.37500024</value>
+			<value>-0.0249997973</value>
 		</property>
 		<property name="rotationY">
-			<value>-63.6887856</value>
+			<value>-157.478333</value>
 		</property>
-	</object>
-	<object class="SandboxEmitter" id="{4a60d330-e2a3-412c-8f34-3f5a001bb82e}">
-		<property name="positionX">
-			<value>-6.0250001</value>
-		</property>
-		<property name="positionZ">
-			<value>6.55000019</value>
-		</property>
-		<relationship name="event">
-			<destination>{6c5a4fca-f6db-4aa1-9c2f-8acd5f0c288d}</destination>
-		</relationship>
 	</object>
 	<object class="SandboxEmitter" id="{8b585222-beca-4b75-af4a-a1b81cd34b92}">
 		<property name="positionX">
-			<value>-5.9749999</value>
+			<value>-6.625</value>
 		</property>
 		<property name="positionZ">
 			<value>0.100000001</value>
 		</property>
+		<property name="rotationY">
+			<value>-79.3803482</value>
+		</property>
 		<relationship name="event">
 			<destination>{b4725b29-aa7f-4718-8ba0-4501757a1c9a}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxEmitter" id="{4e716997-9f7d-45b9-8ce4-8a252f772a0e}">
+		<property name="positionX">
+			<value>-3.25</value>
+		</property>
+		<property name="positionZ">
+			<value>2.7750001</value>
+		</property>
+		<relationship name="event">
+			<destination>{42827aed-3a4c-48fb-af8a-7d473f825eb3}</destination>
 		</relationship>
 	</object>
 </objects>
