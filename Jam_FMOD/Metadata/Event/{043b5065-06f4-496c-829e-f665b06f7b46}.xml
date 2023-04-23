@@ -5,7 +5,7 @@
 			<value>2cs_ShotMaracas</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c96a71ad-ac1c-4e6a-861b-8c3bebd952e9}</destination>
@@ -90,10 +90,7 @@
 	<object class="MixerBusPanner" id="{9e8f6b19-91b6-4790-9a0d-2abb4f4fa07a}" />
 	<object class="SingleSound" id="{53c6dcb7-f6f9-4186-9081-748243b9185e}">
 		<property name="length">
-			<value>0.45336952428698796</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.013897825690992955</value>
+			<value>1.2431475739048836</value>
 		</property>
 		<property name="pitch">
 			<value>-1.20000005</value>
@@ -104,7 +101,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c5dadc83-6d53-4dd0-8fa6-3aa6ac112e88}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-6</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -122,10 +119,13 @@
 	<object class="MixerBusEffectChain" id="{febb25dc-6342-4a2a-85ff-9250348d00f6}">
 		<relationship name="effects">
 			<destination>{949771f5-b5e6-4804-b7cc-a51812993ad1}</destination>
-			<destination>{06752b14-c5c4-48af-a811-2baab9ba4400}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{4a24db8f-d5f2-4fcf-867f-5df9b6e4a689}" />
+	<object class="MixerBusPanner" id="{4a24db8f-d5f2-4fcf-867f-5df9b6e4a689}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{68a27d64-adac-49ae-b9c5-faf246ebab8c}" />
 	<object class="MixerBusEffectChain" id="{6ba95100-3736-49dc-8cb6-6350c1c5d6dc}">
 		<relationship name="effects">
@@ -134,16 +134,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{7aaaa0f4-a323-40d3-b478-7bd007082b15}" />
 	<object class="MixerBusFader" id="{949771f5-b5e6-4804-b7cc-a51812993ad1}" />
-	<object class="SpatialiserEffect" id="{06752b14-c5c4-48af-a811-2baab9ba4400}">
-		<property name="distanceRolloffType">
-			<value>1</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>18</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{acf9c49d-c07d-453d-9c29-a827c348b3e5}" />
 </objects>

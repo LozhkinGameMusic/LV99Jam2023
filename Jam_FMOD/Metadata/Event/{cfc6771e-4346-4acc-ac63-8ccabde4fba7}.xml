@@ -5,7 +5,7 @@
 			<value>ToiletManHit</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b27da612-0d0b-4ec4-8183-c80ad62873e5}</destination>
@@ -89,14 +89,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{1d1463ea-2e64-4ece-aac5-3add4cfe2d65}" />
 	<object class="SingleSound" id="{5fd36dcc-5881-4be3-8262-969377980ea3}">
+		<property name="start">
+			<value>0.5</value>
+		</property>
 		<property name="length">
-			<value>1.0600624999999999</value>
+			<value>1.0600624999999992</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{a278318c-c551-4812-b88b-b959c37c54dd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{73989db5-dc46-4aa4-95fc-2bc2f32ad35f}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -115,7 +121,11 @@
 			<destination>{722407c4-2b33-4c30-92fe-410a34bfa59c}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{24b6abf5-27be-4d7f-b5e2-ae9f534595c3}" />
+	<object class="MixerBusPanner" id="{24b6abf5-27be-4d7f-b5e2-ae9f534595c3}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{d859b11a-80f2-4552-87fc-93ee75b56809}" />
 	<object class="MixerBusEffectChain" id="{fa2cdf20-fb71-4ca1-9160-639441559f02}">
 		<relationship name="effects">
