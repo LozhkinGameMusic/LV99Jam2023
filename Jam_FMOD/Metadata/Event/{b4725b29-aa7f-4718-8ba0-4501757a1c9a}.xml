@@ -704,7 +704,7 @@
 			<value>9.5991041666666668</value>
 		</property>
 		<property name="length">
-			<value>2.4008958333333328</value>
+			<value>0.60089583333333207</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -718,7 +718,10 @@
 			<value>12</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.5999999999999992</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -735,7 +738,10 @@
 			<value>16.746270358682267</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.65372964131773292</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -752,7 +758,7 @@
 			<value>14.346270358682268</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.65372964131773115</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -769,7 +775,10 @@
 			<value>26.302960754695199</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.69703924530480199</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -786,7 +795,7 @@
 			<value>23.902960754695201</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.69703924530479844</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -803,7 +812,10 @@
 			<value>21.556690396012932</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.64330960398706827</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -820,7 +832,7 @@
 			<value>19.156690396012934</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.64330960398706827</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -837,7 +849,7 @@
 			<value>28.816807425434963</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.58319257456503726</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -851,7 +863,10 @@
 			<value>31.216807425434961</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.58319257456503726</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -868,7 +883,7 @@
 			<value>33.563077784117226</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.63692221588277098</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -885,7 +900,10 @@
 			<value>35.963077784117232</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.63692221588277098</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -902,7 +920,7 @@
 			<value>38.384228694050783</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.61577130594921803</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -919,7 +937,10 @@
 			<value>40.832848650336466</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.56715134966353409</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -936,7 +957,7 @@
 			<value>43.232848650336464</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.56715134966353409</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -953,7 +974,10 @@
 			<value>45.628766357820155</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.57123364217984252</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -970,7 +994,7 @@
 			<value>47.976064109018154</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.6239358909818491</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -984,7 +1008,10 @@
 			<value>50.407797031122563</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.59220296887743862</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1001,7 +1028,7 @@
 			<value>52.788868850683123</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.61113114931687695</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1018,7 +1045,10 @@
 			<value>55.220601772787532</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.57939822721246648</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1035,7 +1065,7 @@
 			<value>57.601673592348092</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.59832640765190481</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1052,7 +1082,10 @@
 			<value>59.982745411908652</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.61725458809134315</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1069,7 +1102,7 @@
 			<value>62.397591299831781</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.60240870016822035</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1083,10 +1116,13 @@
 	</object>
 	<object class="CommandSound" id="{9ec18494-c857-4eef-96e5-6fafc1736f9d}">
 		<property name="start">
-			<value>64.846211256117471</value>
+			<value>64.799999999999997</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.44999999999999707</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1103,7 +1139,7 @@
 			<value>67.19350900731547</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.60649099268452167</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1120,7 +1156,10 @@
 			<value>69.625241929419872</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.5747580705801254</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1134,7 +1173,10 @@
 			<value>112.81383184804498</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.58616815195500171</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1151,7 +1193,7 @@
 			<value>115.19490366760554</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.60509633239444716</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1168,7 +1210,10 @@
 			<value>117.58441900425674</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.6155809957432381</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1185,7 +1230,7 @@
 			<value>120.00770840927051</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.59229159072948212</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1202,7 +1247,10 @@
 			<value>122.33420866559652</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.66579133440347382</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1219,7 +1267,10 @@
 			<value>127.20562134942006</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.59437865057993511</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1236,7 +1287,7 @@
 			<value>124.83852645375933</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.56147354624065704</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1335,7 +1386,7 @@
 			<value>71.972539680617871</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.62746031938211777</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1352,7 +1403,10 @@
 			<value>74.353611500178431</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.64638849982156321</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1369,7 +1423,7 @@
 			<value>76.819118490645408</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.58088150935457739</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1386,7 +1440,10 @@
 			<value>79.183303276024688</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.6166967239753034</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1403,7 +1460,7 @@
 			<value>81.61503619812909</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.58496380187090713</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1420,7 +1477,10 @@
 			<value>83.97922098350837</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.62077901649161893</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1437,7 +1497,7 @@
 			<value>86.37717983725021</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.6228201627497838</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1454,7 +1514,10 @@
 			<value>88.792025725173346</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.60797427482663968</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1471,7 +1534,7 @@
 			<value>91.189984578915187</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.61001542108480455</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1488,7 +1551,10 @@
 			<value>93.571056398475747</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.62894360152425</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1505,7 +1571,7 @@
 			<value>95.971056398475753</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.62894360152423578</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1522,7 +1588,10 @@
 			<value>98.424419495460683</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.57558050453931164</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1539,7 +1608,7 @@
 			<value>100.77730740390631</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.62269259609367955</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1556,7 +1625,10 @@
 			<value>103.18689140653136</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.61310859346863245</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1573,7 +1645,7 @@
 			<value>105.62482345624611</value>
 		</property>
 		<property name="length">
-			<value>2.3755864659093731</value>
+			<value>0.57517654375389204</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1590,7 +1662,10 @@
 			<value>108.02482345624611</value>
 		</property>
 		<property name="length">
-			<value>2.3746906325760277</value>
+			<value>0.57517654375387783</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>
@@ -1607,7 +1682,7 @@
 			<value>110.39999999999999</value>
 		</property>
 		<property name="length">
-			<value>2.3999999999999999</value>
+			<value>0.60000000000000275</value>
 		</property>
 		<property name="commandType">
 			<value>3</value>

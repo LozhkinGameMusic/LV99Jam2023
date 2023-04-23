@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Snapshot" id="{2fd17da3-2b95-4242-86bf-bd2eba9b6f03}">
 		<property name="name">
-			<value>SnapshotForPause 2</value>
+			<value>SnapshotForTutor</value>
 		</property>
 		<property name="behavior">
 			<value>1</value>
@@ -24,10 +24,12 @@
 		</relationship>
 		<relationship name="snapshotProperties">
 			<destination>{d3f88b93-fd1e-4b0a-a3d3-8e6439d77615}</destination>
+			<destination>{112f450b-581f-4f01-9d1d-3eef0eeb827c}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{28533829-a3fe-4d31-b436-84f2149afb45}</destination>
 			<destination>{0977a1de-037d-4be3-bb25-6d6c9c10c0ef}</destination>
+			<destination>{7eb9179d-5b6e-4dee-b1b6-95ce02c528ba}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{351f5a2e-5881-4ee7-9797-62ab5815be18}">
@@ -52,6 +54,17 @@
 			<destination>{47b8aa3f-c21b-4dac-8849-83ce7e78cd90}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{112f450b-581f-4f01-9d1d-3eef0eeb827c}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-9.5</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{d43ec86f-df58-411f-ba71-54180c26524d}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{28533829-a3fe-4d31-b436-84f2149afb45}">
 		<relationship name="mixerStrip">
 			<destination>{47b8aa3f-c21b-4dac-8849-83ce7e78cd90}</destination>
@@ -60,6 +73,11 @@
 	<object class="SnapshotTrack" id="{0977a1de-037d-4be3-bb25-6d6c9c10c0ef}">
 		<relationship name="mixerStrip">
 			<destination>{0b723571-87b1-4b0c-a0ae-e0975216b879}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{7eb9179d-5b6e-4dee-b1b6-95ce02c528ba}">
+		<relationship name="mixerStrip">
+			<destination>{d43ec86f-df58-411f-ba71-54180c26524d}</destination>
 		</relationship>
 	</object>
 	<object class="ADSRModulator" id="{772a13d8-2771-4f60-a424-9a1e18f561d5}">

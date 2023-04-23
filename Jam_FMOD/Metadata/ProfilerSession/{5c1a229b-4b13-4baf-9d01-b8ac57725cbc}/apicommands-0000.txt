@@ -1,0 +1,37 @@
+Playback::frame, 0
+Playback::version, 2, 131588
+#
+# FMOD v2.02.04 command capture
+#   System::setSoftwareChannels(numsoftwarechannels: 64)
+#   System::setDSPBufferSize(bufferlength: 1024, numbuffers: 4)
+#   System::setSoftwareFormat(samplerate: 48000, speakermode: 3, numrawspeakers: 2)
+#   System::setAdvancedSettings(settings: {maxMPEGCodecs: 0, maxADPCMCodecs: 0, maxXMACodecs: 0, maxVorbisCodecs: 0, maxAT9Codecs: 0, maxFADPCMCodecs: 0, maxPCMCodecs: 0, maxOpusCodecs: 0
+#       ASIONumChannels: 0, vol0virtualvol: -1, defaultDecodeBufferSize: 400, geometryMaxFadeTime: 0,
+#       distanceFilterCenterFreq: 1500, reverb3Dinstance: 0, DSPBufferPoolSize: 8, resamplerMethod: 2, randomSeed: 0})
+#   Studio::System::setAdvancedSettings(settings: {commandqueuesize: 32768, handleinitialsize: 65536, studioupdateperiod: 20, idlesampledatapoolsize: 262144})
+#   Studio::System::initialize(maxchannels: 1024, studioflags: 0x00000024, flags: 0x00520000)
+#
+Playback::frame, 0
+# Printing initial instance state
+Bank::getEventListItem, 0, 0, {fa4ee403-262a-440f-83ad-746dd419a015}, 2101664
+Bank::getEventListItem, 0, 1, {eedfab17-c99a-43f7-8528-433d9f968885}, 2103712
+Bank::getEventListItem, 0, 2, {cab2fe1a-f158-4c22-9d8f-83feda471d62}, 2098080
+Bank::getEventListItem, 0, 3, {76172128-3537-466f-87b5-16a5e73ef505}, 2104224
+Bank::getEventListItem, 0, 4, {b4725b29-aa7f-4718-8ba0-4501757a1c9a}, 2098592
+Bank::getEventListItem, 0, 5, {df6d8929-9f6e-45b6-81ec-483df52627cc}, 2102944
+Bank::getEventListItem, 0, 6, {0f896338-6f78-4965-8489-8dfe4a4a1426}, 2102432
+Bank::getEventListItem, 0, 7, {6967e58e-ad82-4b25-846c-f8d5ef75ab22}, 2102176
+Bank::getEventListItem, 0, 8, {bbbe7ea2-f2d7-40ef-a5aa-52684999b6c9}, 2101920
+Bank::getEventListItem, 0, 9, {28ed25d5-95a1-4b9f-9299-5bae06a8a8a1}, 2102688
+Bank::getEventListItem, 0, 10, {5d8a49dc-db7f-4aad-882d-a14be841e070}, 2098848
+Bank::getEventListItem, 0, 11, {42827aed-3a4c-48fb-af8a-7d473f825eb3}, 2099104
+Bank::getEventListItem, 0, 12, {f18a66f3-8ac7-406a-b1de-96fd152d25fa}, 2099360
+Bank::getBusListItem, 0, 0, {be0b87c4-c291-44ad-99ab-63f212eaaf21}, 2098336
+System::setListenerAttributes, 0, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}, {0,0,0}, true
+System::setParameterByName, ParPitch, 1, false
+System::setParameterByName, ParMusic, 1, false
+# Finished printing initial instance state
+Playback::frame, 2048
+Manager::directLoadBankMemory
+Playback::frame, 48128
+Playback::frame, 49152

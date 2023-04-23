@@ -31,6 +31,9 @@
 	<object class="MixerBusFader" id="{06a1c9fe-cbcf-40e1-9c24-481fe9c9572f}" />
 	<object class="Sidechain" id="{4ffe4459-6894-4d4f-8b55-0b9f2752b26e}" />
 	<object class="MixerSend" id="{c53b3a20-5d9e-4f8e-96af-12b1344859a8}">
+		<property name="level">
+			<value>-42</value>
+		</property>
 		<property name="inputFormat">
 			<value>2</value>
 		</property>
